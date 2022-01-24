@@ -1,0 +1,29 @@
+<head>
+    <title>Hello World!</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function showHide(element_id) {
+
+        if (document.getElementById(element_id)) {
+            var obj = document.getElementById(element_id);
+            if (obj.style.display != "block") {
+                obj.style.display = "block";
+            }
+            else obj.style.display = "none";
+        }
+
+    }
+</script>
+
+
+<a href="javascript:void(0)" onclick="showHide('block_id')">click this one</a><br/><br/>
+<div id="block_id" style="display: none;">
+    Hello World! I think that's all what I should to do:D
+    <br/>
+    <br/>
+</div>
+
+</body>
+</html>
