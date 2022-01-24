@@ -1,0 +1,20 @@
+{
+  "name": "webformyself-webpack",
+  "version": "1.0.0",
+  "description": "sv-optic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascrips",
+    "js",
+    "webpack"
+  ],
+  "author": "Ehor Yevtukhov",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
